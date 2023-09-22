@@ -363,6 +363,12 @@ footer
         justify-content: center;
     }
 
+    #informacoesPessoais
+{
+    text-align: justify;
+   
+}
+
     #image
     {
         text-align: center;

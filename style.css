@@ -379,6 +379,12 @@ footer
         text-align: center;
     }
 
+    #skills 
+    {
+        margin: 0 auto;
+        text-align: center; 
+    }
+    
     #skills h3
     {
         text-align: center;

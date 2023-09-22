@@ -346,6 +346,11 @@ footer
 
 @media (max-width:720px)
 {
+    .container
+    {
+        max-width: 100%;
+    }
+    
     #banner
     {
         padding-top: 0px;
@@ -353,7 +358,7 @@ footer
 
     #primeiroParagrafo
     {
-        width: 100%;
+        width: 90%;
     }
 
     #sobreMim

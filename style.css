@@ -1,0 +1,430 @@
+body
+{
+    font-family: "Fira sans", sans-serif;
+    font-weight: 400;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;    
+    text-decoration: none;
+    background-color: #13131D;
+    overflow: auto;
+}
+
+a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h3
+{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.container
+{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header
+{
+    margin: 0;
+    position: relative;
+    margin-bottom: 2.2em;
+}
+
+.fa-angles-down
+{
+    position: absolute;
+    left: 50%;
+    bottom: 1.5em;
+}
+
+nav 
+{
+    text-align: right;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 20px 0;
+}
+
+nav ul 
+{
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover
+{
+    color: #22BA64;
+}
+
+#banner
+{
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#banner h1
+{
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #fff;
+}
+
+#primeiroParagrafo
+{
+    margin-top: 0;
+    background-color: #22BA64;
+    padding: 5px;
+    color: #fff;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+main
+{
+    text-align: center;
+    color: #fff;
+    background-color: #13131D;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+#sobreMim
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B1A27;
+    margin: 40px 0;
+    padding-top: 40px;
+}
+
+#sobreMim ul 
+{
+    list-style: none;
+}
+
+#sobreMim li 
+{
+    padding: 5px;
+}
+
+#informacoesPessoais
+{
+    text-align: right;
+   
+}
+
+#informacoesPessoais img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#informacoesPessoais ul li 
+{
+    font-weight: 300;
+}
+
+#informacoesPessoais span
+{
+    color: #22BA64;
+}
+
+#skills h3
+{
+    text-align: left;
+    margin-left: 40px;
+}
+
+#skills p 
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+progress 
+{
+    width: 11.5rem;
+    height: 10px;
+    border: none;
+    border-radius: none;
+    background-color: #22BA64;
+}
+
+#portifolio
+{
+    background-color: #1B1A27;
+    height: 500px;
+}
+
+#hobby
+{
+    background-color: #1B1A27;
+    padding: 20px;
+}
+
+#hobbys
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hobbys section 
+{
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+p > i 
+{
+    font-size: 3.8em;
+    color: #22BA64;
+}
+
+#hobbys p 
+{
+    font-weight: 300;
+ 
+}
+
+#clientes
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4.5em 0;
+}
+
+#clientes h3 
+{
+    margin: 0; 
+    padding: 0;
+    line-height: 2;
+}
+#clientes p
+{
+    margin: 0;
+    font-weight: 300;
+}
+
+#clientes p > i
+{
+    font-size: 3em;
+}
+
+#contacto 
+{
+    background-color: #1B1A27;
+    padding: 30px 0 50px 0;
+}
+
+#endereco
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#endereco p > i 
+{
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#endereco h4 
+{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0; 
+    line-height: 2;
+    font-weight: 500;
+}
+
+#endereco p
+{
+    margin: 0; 
+    padding: 0;
+    font-weight: 300;
+}
+
+#endereco a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+form
+{
+    margin: 3.4em 0;
+}
+
+form textarea
+{
+    display: block;
+    width: 70%;
+    max-width: 70%;
+    margin: 2em auto;
+    background-color: #13131D;
+    border: none;
+    overflow: auto;
+}
+
+form input[type="name"], input[type="email"]
+{
+    width: 33.5%;
+    max-width: 33.5%;
+    overflow: auto;
+    display: inline-block;
+    padding: 8px;
+    background-color: #13131D;
+    border: none;
+}
+
+form input[type="submit"]
+{
+    padding: 15px;
+    color: #fff;
+    background-color:#22BA64;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+}
+
+form input[type="submit"]:hover
+{
+    color: #22BA64;
+    background-color:#fff;
+  
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+
+@media (max-width:720px)
+{
+    #banner
+    {
+        padding-top: 0px;
+    }
+
+    #primeiroParagrafo
+    {
+        width: 100%;
+    }
+
+    #sobreMim
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #image
+    {
+        text-align: center;
+    }
+
+    #skills h3
+    {
+        text-align: center;
+    }
+
+    #hobbys
+    {
+        flex-direction: column;
+    }
+
+    #clientes
+    {
+        flex-direction: column;
+    }
+
+    #clientes section 
+    {
+        margin: 20px 0;
+    }
+
+    #endereco
+    {
+        flex-direction: column;
+    }
+
+
+    #endereco section
+    {
+        margin: 20px 0;
+    }
+
+
+    form 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    form input[type="name"], input[type="email"]
+    {
+        width: 80%;
+        max-width: 80%;
+        margin: 10px 0;
+    }
+
+    form textarea
+    {
+        
+        width: 85%;
+        max-width: 85%;
+       
+    }
+
+    footer 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}

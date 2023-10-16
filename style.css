@@ -14,6 +14,13 @@ body
     overflow: auto;
 }
 
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 a 
 {
     color: #fff;
@@ -33,11 +40,6 @@ h3
     text-transform: uppercase;
 }
 
-.container
-{
-    max-width: 80%;
-    margin: 0 auto;
-}
 
 header
 {
@@ -76,7 +78,6 @@ nav ul li a
     text-decoration: none;
     cursor: pointer;
     transition: color 0.3s ease;
-    padding: 0.5rem 1rem;
 }
 
 nav ul li a:hover
@@ -362,8 +363,8 @@ footer
 {
     .container
     {
-        width: 100;
-        padding: 0 0.2rem;
+        width: 100%;
+        padding: 0 0.5rem;
     }
 
     header
@@ -435,6 +436,7 @@ footer
 
     header nav li
     {
+        
         display: block;
         text-align: center;
         border-bottom: 1.5px solid rgba(200, 200, 200, 0.5);
@@ -458,7 +460,7 @@ footer
 
     main #sobre
     {
-        margin: 0;
+        margin-top: 1rem;
     }
     
     #sobreMim

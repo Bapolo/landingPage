@@ -44,19 +44,17 @@ header
     margin: 0;
     margin-bottom: 2.2em;
     height: 5rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
-.fa-angles-down
-{
-    position: absolute;
-    left: 50%;
-    bottom: 1.5em;
-}
+
 
 nav 
 {
     text-align: right;
-    padding: 20px 0;
+    vertical-align: middle;
 }
 
 nav ul 
@@ -68,8 +66,8 @@ nav ul
 nav ul li
 {
     display: inline-block;
-    padding: 10px;
-    margin: 5px;
+    margin-left: 1rem;
+    padding: 1rem 0;
 }
 
 nav ul li a
@@ -78,6 +76,7 @@ nav ul li a
     text-decoration: none;
     cursor: pointer;
     transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
 }
 
 nav ul li a:hover
@@ -111,7 +110,7 @@ nav #btnMenu
     background-color: #22BA64;
     padding: 5px;
     color: #fff;
-    width: 35%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -124,13 +123,23 @@ main
     padding: 20px 0;
 }
 
+
+#seta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
 #sobreMim
 {
     display: flex;
     justify-content: space-evenly;
     background-color: #1B1A27;
-    margin: 40px 0;
-    padding-top: 40px;
+    margin: 0.5rem 0 2rem 0;
+    padding-top: 0;
 }
 
 #sobreMim ul 
@@ -349,7 +358,7 @@ footer
 
 
 
-@media (max-width:690px)
+@media (max-width:850px)
 {
     .container
     {
@@ -365,15 +374,43 @@ footer
 
     header nav 
     {
-        display: flex;
         justify-content: right;
     }
 
     header nav #btnMenu
     {
         display: block;
-        padding: 0.5rem 1.5rem;
+        width: 8rem;
+        background-color: transparent;
+        color: rgba(34, 186, 100, 1);
+        border: none;
+        border-radius: none;
         cursor: pointer;
+        text-align: center;
+        transition: background-color 0.3s ease-out;
+    }
+
+    .fa-bars
+    {
+        font-weight: bold;
+        font-size: 2rem;
+        box-shadow: 0 0 4px rgba(247, 247, 247, 0.5);
+        width: 80%;
+        padding: 0.5rem  1rem;
+        background-color: rgb(255, 255, 255);
+        transition: box-shadow 0.3s linear;
+    }
+
+    .fa-bars:active
+    {
+        box-shadow: inset 0 0 4px rgba(12, 12, 12, 0.5);
+        transition: box-shadow 0.3s linear;
+        transform: scale(1.1);
+    }
+
+    header nav #btnMenu:hover
+    {
+        transition: background-color 0.3s ease-in;
     }
 
     header nav ul {
@@ -401,8 +438,6 @@ footer
     header nav li
     {
         display: block;
-
-        padding: 1rem 0;
         text-align: center;
         border-bottom: 1.5px solid rgba(200, 200, 200, 0.5);
         text-align: center;
@@ -423,11 +458,7 @@ footer
         padding-top: 0px;
     }
 
-    #primeiroParagrafo
-    {
-        width: 90%;
-    }
-
+  
     #sobreMim
     {
         flex-direction: column;

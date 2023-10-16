@@ -48,11 +48,15 @@ header
     margin-bottom: 2.2em;
     height: 5rem;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
 }
 
-
+header #logo
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
 
 nav 
 {
@@ -365,12 +369,13 @@ footer
     .container
     {
         width: 100%;
-        padding: 0 0.5rem;
+        padding: 0 0.4rem;
     }
 
     header
     {
         position: relative;
+        
     }
 
     header nav 
@@ -382,17 +387,25 @@ footer
     {
         display: block;
         width: 8rem;
-        background-color: transparent;
+        background-color: #fff;
         color: rgba(34, 186, 100, 1);
-        border: none;
+        padding: 0;
         border-radius: none;
         cursor: pointer;
         text-align: center;
+        border: 1px solid #292727;
         transition: background-color 0.3s ease-out;
     }
 
+    header nav #btnMenu:hover
+    {
+        transition: background-color 0.3s ease-in;
+    }
+
+
     .fa-bars
     {
+        width: 5rem;
         font-weight: bold;
         font-size: 2rem;
         box-shadow: 0 0 4px rgba(247, 247, 247, 0.5);
@@ -408,11 +421,7 @@ footer
         transform: scale(1.1);
     }
 
-    header nav #btnMenu:hover
-    {
-        transition: background-color 0.3s ease-in;
-    }
-
+  
     header nav ul {
         max-height: 0;
         opacity: 0;

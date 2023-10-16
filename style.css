@@ -42,8 +42,8 @@ h3
 header
 {
     margin: 0;
-    position: relative;
     margin-bottom: 2.2em;
+    height: 5rem;
 }
 
 .fa-angles-down
@@ -56,13 +56,13 @@ header
 nav 
 {
     text-align: right;
-    border-bottom: 1px solid #d1d1d1;
     padding: 20px 0;
 }
 
 nav ul 
 {
     list-style: none;
+    
 }
 
 nav ul li
@@ -83,6 +83,11 @@ nav ul li a
 nav ul li a:hover
 {
     color: #22BA64;
+}
+
+nav #btnMenu
+{
+    display: none;
 }
 
 #banner
@@ -344,13 +349,73 @@ footer
 
 
 
-@media (max-width:720px)
+@media (max-width:690px)
 {
     .container
     {
         max-width: 100%;
         padding: 0 10px;
         margin: 0 auto;
+    }
+
+    header
+    {
+        position: relative;
+    }
+
+    header nav 
+    {
+        display: flex;
+        justify-content: right;
+    }
+
+    header nav #btnMenu
+    {
+        display: block;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+    }
+
+    header nav ul {
+        max-height: 0;
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+        z-index: 99999999;
+        top: 5rem;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        background-color: #1B1A27;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    
+    header nav ul.ativo {
+        max-height: 32rem; 
+        opacity: 1;
+        transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  
+    }
+
+    header nav li
+    {
+        display: block;
+
+        padding: 1rem 0;
+        text-align: center;
+        border-bottom: 1.5px solid rgba(200, 200, 200, 0.5);
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    header nav li a
+    {
+        padding: 1rem 2rem;
+    }
+    header nav li a:hover 
+    {
+        background-color: #13131D;
     }
     
     #banner

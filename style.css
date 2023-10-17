@@ -369,6 +369,7 @@ footer
     .container
     {
         width: 98%;
+        max-width: 98%;
         padding: 0 0.4rem;
     }
 

@@ -345,6 +345,7 @@ footer
 {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 3rem;
 }
 
@@ -448,9 +449,9 @@ footer
         background-color: #13131D;
     }
     
-    #banner
+    #primeiroParagrafo
     {
-        padding-top: 0px;
+        width: 80%;
     }
 
     main #sobre

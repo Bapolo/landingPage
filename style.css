@@ -343,13 +343,14 @@ form input[type="submit"]:hover
 
 footer
 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 1rem;
 }
 
-
+footer p
+{
+    display: inline-block;
+    margin: 0.5rem 1rem;
+}
 
 @media (max-width:850px)
 {
@@ -539,12 +540,11 @@ footer
        
     }
 
-    footer 
-    {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
 
+    footer p
+    {
+        display: block;
+        
     }
 
   

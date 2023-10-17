@@ -344,7 +344,7 @@ form input[type="submit"]:hover
 footer
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 3rem;
 }
@@ -543,6 +543,5 @@ footer
     {
         flex-direction: column;
         align-items: center;
-     
     }
 }

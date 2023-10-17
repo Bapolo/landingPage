@@ -17,6 +17,7 @@ body
 .container
 {
     width: 70%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -93,7 +94,6 @@ nav #btnMenu
 {
     display: none;
 }
-
 
 #banner
 {
@@ -368,9 +368,8 @@ footer
 {
     .container
     {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 0.8rem;
+        width: 98%;
+        padding: 0 0.4rem;
     }
 
     header
@@ -470,10 +469,10 @@ footer
     {
         width: 95%;
     }
-    
+
     main #sobre
     {
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
     
     #sobreMim

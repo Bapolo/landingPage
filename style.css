@@ -17,7 +17,6 @@ body
 .container
 {
     width: 70%;
-    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -371,7 +370,7 @@ footer
         width: 95%;
         max-width: 95%;
         margin: 0 auto;
-        padding: 0 0.4rem;
+        padding: 0 0.8rem;
     }
 
     header

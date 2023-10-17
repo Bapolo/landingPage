@@ -16,7 +16,7 @@ body
 
 .container
 {
-    width: 90%;
+    width: 70%;
     max-width: 90%;
     margin: 0 auto;
 }
@@ -96,27 +96,13 @@ nav #btnMenu
     display: none;
 }
 
-#banner
-{
-    height: 25rem;
-    padding-left: 1.4rem;
-    padding-top: 3.8rem;
-    text-align: center;
-}
-
-#banner h1
-{
-    font-size: 3.3rem;
-    color: #fff;
-}
 
 #primeiroParagrafo
 {
-    margin-top: 0;
     background-color: #22BA64;
     padding: 0.4rem;
     color: #fff;
-    width: 95%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -369,8 +355,7 @@ footer
 {
     .container
     {
-        width: 100%;
-        padding: 0 0.4rem;
+        width: 90%;
     }
 
     header

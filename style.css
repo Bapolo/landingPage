@@ -542,7 +542,11 @@ footer p
        
     }
 
-
+    footer
+    {
+        text-align: center;
+    }
+    
     footer p
     {
         display: block;

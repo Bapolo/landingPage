@@ -115,7 +115,7 @@ nav #btnMenu
     background-color: #22BA64;
     padding: 0.4rem;
     color: #fff;
-    width: 95%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -378,10 +378,7 @@ footer
         
     }
 
-    header nav 
-    {
-        justify-content: right;
-    }
+  
 
     header nav #btnMenu
     {
@@ -468,6 +465,11 @@ footer
         padding-top: 0px;
     }
 
+    #primeiroParagrafo
+    {
+        width: 95%;
+    }
+    
     main #sobre
     {
         margin-top: 1rem;

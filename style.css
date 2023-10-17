@@ -369,7 +369,7 @@ footer
     {
         width: 100%;
         max-width: 100%;
-        padding: 0 0.4rem;
+        padding: 0 0.8rem;
     }
 
     header
@@ -470,6 +470,10 @@ footer
         width: 95%;
     }
     
+    #seta
+    {
+        margin-bottom: 5rem;
+    }
     main #sobre
     {
         margin-top: 1rem;

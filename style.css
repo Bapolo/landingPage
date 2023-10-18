@@ -307,6 +307,8 @@ form textarea
     margin: 2em auto;
     background-color: #13131D;
     border: none;
+    color: #fcfcfc;
+    
     overflow: auto;
 }
 
@@ -319,6 +321,7 @@ form input[type="name"], input[type="email"]
     padding: 8px;
     background-color: #13131D;
     border: none;
+    color: #fcfcfc;
 }
 
 form input[type="submit"]
